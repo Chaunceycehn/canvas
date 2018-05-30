@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>canvas</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script src="./main.js"></script>
+</body>
+<canvas id="xxx" width=300 height=300></canvas>
+  <div id=actions class="actions">
+    <svg id=pen class="active icon">
+      <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg id=eraser class="icon">
+      <use xlink:href="#icon-erase"></use>
+    </svg>
+    <svg id=clear class="icon">
+      <use xlink:href="#icon-clear"></use>
+    </svg>
+    <svg id=download class="icon">
+      <use xlink:href="#icon-save"></use>
+    </svg>
+  </div>
+  <ol class="colors">
+    <li >
+            <input type="color" list="colors" id="mycolor">
+            <datalist id="colors">
+              <option>#ffffff</option>
+              <option>#ff0000</option>
+              <option>#ff7700</option>
+              <option>#7700ff</option>
+              <option>#000000</option>
+            </datalist>
+    </li>
+  </ol>
+  <ol class="sizes">
+    <li id="thin" class="thin"></li>
+    <li id="thick" class="thick"></li>
+  </ol>
+  
+  <script src="./main.js"></script>
+  <script src="//at.alicdn.com/t/font_478967_6n4o5i5mnff4unmi.js"></script>
+</html>
